@@ -1,0 +1,594 @@
+/*nav boostrap*/
+
+.nav-item {
+  background-color: #ff953f;
+  border-radius: 5px;
+  align-items: center !important;
+  display: flex;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: end;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+/*Seccion HOME*/
+
+/* Estilos base Presentacion + Bienvenido a mi sitio*/
+.container-presentacion,
+.container-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.column-left,
+.desciption-left {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.mockup-home,
+.right-img img {
+  max-width: 50% !important;
+  height: auto;
+}
+
+
+/* Media query para móviles Presentacion + Bienvenido a mi sitio*/
+@media (max-width: 500px) {
+  .container-presentacion,
+  .container-desc {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px !important;
+    width: 100% !important;
+  }
+
+  .column-left,
+  .desciption-left {
+    margin-bottom: 20px;
+    padding: 0px !important;
+  }
+  .desciption-left {
+    width: 100% !important;
+    align-items: center;
+  }
+  .right-img {
+    width: 100%;
+  }
+}
+
+/* FIN Media query para móviles Presentacion + Bienvenido a mi sitio*/
+
+.right-img {
+  width: 50%;
+  float: none;
+  padding-left: 0 !important;
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.container-presentacion button {
+  margin-top: 10px;
+}
+
+.desciption-left img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+}
+
+/* COMIENZO DE seccion quien soy*/
+
+.section-soy {
+  background-color: rgb(129, 127, 125);
+  margin: 0px;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desciption-left {
+  width: 50%;
+  align-items: center;
+}
+
+.right-img {
+  width: 50%;
+  float: right;
+  padding-left: 150px;
+}
+
+.container-desc {
+  display: flex;
+  justify-content: space-between;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* FIN seccion quien soy*/
+
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+@media (max-width: 500px) {
+  .containergrid2 {
+    grid-template-columns: 1fr !important;
+    padding: 20px !important;
+  }
+
+  .grid-items {
+    text-align: center;
+  }
+}
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+/* Estilos para MOVIL presentacion corta row home**/
+@media (min-width: 500px) {
+  .container-presentacion .container-desc {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .column-left,
+  .desciption-left {
+    margin-bottom: 0;
+  }
+
+  .right-img img {
+    width: 100%;
+  }
+
+  .container-presentacion button {
+    margin-top: 0;
+  }
+
+  .desciption-left img {
+    margin-top: 0;
+    width: 200px;
+  }
+}
+/* FIN Estilos para escritorio presentacion corta 3 row home**/
+
+/* SERVICIO - Estilos base */
+.servicios-4row {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 5px;
+  justify-content: center;
+
+}
+
+.container text-center, .row .col .container-servicios {
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #ff953f;
+	padding: 20px;
+	min-height: 382px;
+}
+
+.container text-center .servicios-column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width:500px) {
+  .container-servicios{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+  
+  
+}
+/* FIN SERVICIO - Estilos base */
+
+/* COMIENZO de forma de trabajo */
+
+.containergrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grid-items {
+  flex: 1 1 calc(50% - 20px); /* 2 columnas con gap */
+  box-sizing: border-box;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .grid-items {
+    flex: 1 1 100%; /* 1 columna en pantallas pequeñas */
+  }
+  .servicios-4row {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.logofinal {
+  max-width: 150px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu {
+  position: relative;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block; /* Para que los elementos de la lista sean en línea */
+  margin-right: 10px;
+  text-decoration: none !important;
+}
+
+.menu-principal {
+  position: relative;
+  align-content: end;
+}
+
+.mockup-home {
+  max-width: 50%;
+  align-items: flex-end;
+}
+
+/* COMIENZO DE QUIEN SOY - EXPERIENCIA - CONTACTO * DANDOLE GRIDDDDD/
+
+  /* Estilos base */
+
+/*OPCION 1 CON VALORES*/
+.containergrid2 {
+  background-color: #ff953f;
+  margin: 0px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+}
+
+.grid-items {
+  border: 1px solid white;
+  margin: 4px;
+  height: auto;
+  padding: 35px;
+}
+
+/*FIN DE -> DES - EXPERIENCIA - CONTACTO */
+
+/*COMIENZO llamada a la accion */
+
+.llamada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  text-align: center;
+  background-color: #ff953f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*FIN llamada a la accion */
+
+/*Estilos Base - COMIENZO footer */
+
+footer {
+  background-color: orange;
+  padding: 40px 50px; /* Simplificación del padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Centra el texto en el footer */
+  margin-top: 5px;
+}
+
+.copy {
+  color: black;
+  font-size: 17px;
+  font-style: normal;
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+
+.menufooter {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .llamada {
+    height: auto;
+    padding: 20px;
+    align-items: center;
+  }
+
+  footer {
+    padding-block: 30px;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  p {
+    color: black;
+    font-size: 17px;
+    font-style: normal;
+    padding-left: 5pxpx;
+    font-family: sans-serif;
+    text-align: left !important;
+  }
+}
+
+/*--------------------SECCION TRAYECTORIA----------------------------*/
+.columnleft {
+  padding-left: 60px;
+  padding: 40px;
+}
+
+.trayectoria {
+  min-width: 50%;
+  padding: 50px;
+  background-color: darkgrey;
+}
+
+.flexcolumn {
+  display: flex;
+  padding-block: 15px;
+  width: 100%;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.columnleft,
+.trayectoria {
+  flex: 1;
+  padding: 60px;
+  height: 80vh;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 500px) {
+  .flexcolumn {
+    flex-direction: column;
+  }
+}
+
+/**-------------SECCION SERVICIOS------------------*/
+
+/* Estilos generales */
+
+.container-padre,
+.container2,
+.container-3-servicios,
+.column-text-column,
+.column-image-column {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+  height: auto;
+}
+
+.container-3-servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: auto;
+}
+
+.column-image-column img {
+  max-height: 400px;
+}
+
+.column-text-column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  align-items: center;
+  min-height: 450px;
+}
+
+.column-image-column1 img {
+  flex: 0 0 100%;
+  max-width: 100%;
+  min-height: 450px;
+  justify-content: end !important;
+}
+
+.container2 {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.container-padre,
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.column-image-column1,
+.column-text-column,
+.column-image-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.vertical h3 {
+  margin-top: 0;
+}
+
+.container2 {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+/* Estilos para pantallas de 500px o menos */
+@media (max-width: 500px) {
+  .container-padre,
+  .container2,
+  .container-3-servicios,
+  .column-image-column,
+  .column-text-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container2 {
+    flex-direction: column !important; /* Asegura que se haga una columna en móvil */
+  }
+
+  .column-image-column1,
+  .column-text-column,
+  .column-image-column {
+    width: 100%;
+    padding: 5px;
+    max-width: 100%;
+  }
+
+  .column-image-column1 img,
+  .column-image-column img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* -----------FIN SECCION SERVICIOS-------------------*/
+
+/* ------------------- COMIENZO DE SECCION TRABAJOS */
+
+
+/*-----  TRABAJOS -----*/
+
+.main-solapas-trabajo {
+  padding: 40px !important;
+}
+
+.container text-center,
+.row .col {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.descripcion-flex {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  padding-left: 40px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.desc-trabajo{
+text-align: left;
+}
+
+/*--------------- RESPONSIVE TRABAJOS -----*/
+
+@media screen and (max-width: 500px) {
+
+  .container .row .col {
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+
+
+/* SECCION------- CONTACTO ------ */
+
+.container text-center,
+.row .col {
+  display: flex;
+  margin: 10px;
+
+}
+
+#home-tab{
+  margin: 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: center !important;
+}
+
+.container text-center,
+.row .col {
+  display: flex;
+  margin: 10px;
+  justify-content: end;
+}
+
+.col .contacto-right .form {
+  flex-basis: 100%;
+  justify-content: start!important;
+  width: 100%;
+  text-align: start;
+}
+
+.contacto-right{
+  text-align: left;
+}
+
+.col img-contact {
+  width: 400px;
+}
+
+@media screen and (max-width:500px) {
+
+  .row {
+      display: flex;
+      flex-direction: column;
+      flex-basis: auto;
+  }
+}
