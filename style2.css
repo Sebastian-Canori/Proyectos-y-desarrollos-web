@@ -1,0 +1,26 @@
+/*OPCION 1 CON REPEAT*/
+
+.containergrid{
+    background-color: rgb(255, 94, 0);
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+
+    grid-template-columns: repeat( 3,33%);
+}
+
+
+/*OPCION 1 CON VALORES*/
+.containergrid2{
+    background-color: rgb(255, 94, 0);
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 222px 150px 150px;
+}
+
+.grid-items{
+    border: 2px solid;
+    margin: 5px;
+    height: 100px;
+}
