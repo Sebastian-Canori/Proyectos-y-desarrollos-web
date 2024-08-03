@@ -15,6 +15,7 @@
   outline: 2px solid #2c9caf;
 }
 
+
 nav-link:hover {
   color: #ffffff;
   transform: scale(1.1);
@@ -39,7 +40,7 @@ nav-link:hover::before {
   width: 250%;
 }
 
-
+/*FIN de estilos de botones de barra de navegacion */
 /*nav boostrap*/
 
 .nav-item {
