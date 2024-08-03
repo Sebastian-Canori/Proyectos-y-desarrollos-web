@@ -1,10 +1,15 @@
+<<<<<<<<< Temporary merge branch 1
 @font-face{
   font-family: "Cabo" ;
   src: url("../MI-DESARROLLO-HTML/FUENTES/Cabin/Cabin-Bold.ttf");
 
 }
 
-*estilo de botones de barra de navegacion */
+
+
+
+=========
+/*estilo de botones de barra de navegacion */
 .nav-link {
   padding: 1em 2em;
   border: none;
@@ -47,6 +52,7 @@ nav-link:hover::before {
 }
 
 
+>>>>>>>>> Temporary merge branch 2
 /*nav boostrap*/
 
 .nav-item {
