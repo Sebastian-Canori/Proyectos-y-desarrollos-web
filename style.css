@@ -40,7 +40,7 @@ nav-link::before {
 nav-link:hover::before {
   width: 250%;
 }
-=======
+
 @font-face{
   font-family: "Cabo" ;
   src: url("../MI-DESARROLLO-HTML/FUENTES/Cabin/Cabin-Bold.ttf");
