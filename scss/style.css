@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -66,4 +67,283 @@ header .navbar-collapse {
 @font-face {
   font-family: "Cabo";
   src: url("../MI-DESARROLLO-HTML/FUENTES/Cabin/Cabin-Bold.ttf");
+}
+.container-presentacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background-color: #ffffff;
+}
+.container-presentacion .column-left {
+  max-width: 50%;
+}
+.container-presentacion .column-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.container-presentacion .column-left p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.container-presentacion .column-left button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.container-presentacion .column-left button:hover {
+  background-color: #0056b3;
+}
+
+.mockup-home {
+  max-width: 40%;
+}
+.mockup-home img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-img {
+  width: 50%;
+  float: none;
+  padding-left: 0 !important;
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.container-presentacion button {
+  margin-top: 10px;
+}
+
+.desciption-left img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+}
+
+/*COMIENZO DE seccion quien soy*/
+.section-soy {
+  background-color: rgb(240, 240, 240);
+  margin: 0px;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.desciption-left {
+  width: 50%;
+  align-items: center;
+  padding: 10%;
+}
+.desciption-left h2 {
+  font-family: "Cabo", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.desciption-left h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.right-img {
+  width: 50%;
+  float: right;
+  padding-left: 150px;
+}
+.right-img img {
+  max-width: 50%;
+}
+
+.container-desc {
+  display: flex;
+  justify-content: space-between;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* FIN seccion quien soy*/
+/*COMIENZO container de 3 columnas intro - exp -contaccto*/
+.containergrid2 {
+  background-color: #ff953f;
+  margin: 0px;
+  padding: 4%;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+}
+.containergrid2 .intro-3row {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.containergrid2 .grid-items {
+  border: 1px solid white !important;
+  margin: 4px;
+  height: auto;
+  padding: 60px;
+}
+.containergrid2 .grid-items button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.containergrid2 .grid-items button:hover {
+  background-color: #0056b3;
+}
+
+/*FIN container de 3 columnas intro - exp -contaccto*/
+/* COMIENZO de forma de trabajo */
+/* SERVICIO - Estilos base */
+.servicios-4row {
+  text-align: center;
+  padding: 5%;
+  margin: 10px;
+  margin-top: 5px;
+  justify-content: center;
+}
+.servicios-4row h2 {
+  margin-bottom: 1rem !important;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.servicios-4row p {
+  font-size: 1rem;
+  padding-top: 5px;
+}
+.servicios-4row .container text-center,
+.servicios-4row .row .col .container-servicios {
+  display: flex;
+  margin: 5px;
+  padding: 20px !important;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #e7e7e7;
+  padding: 20px;
+  min-height: 400px;
+  border-radius: 30px;
+}
+.servicios-4row .container text-center:hover,
+.servicios-4row .row .col .container-servicios:hover {
+  background-color: #f1f1f1;
+}
+.servicios-4row .container text-center .col .container-servicios h3,
+.servicios-4row .row .col .container-servicios .col .container-servicios h3 {
+  font-size: 5rem !important;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.servicios-4row .container text-center .col .container-servicios img,
+.servicios-4row .row .col .container-servicios .col .container-servicios img {
+  max-width: 100%;
+  padding-top: 50px;
+}
+.servicios-4row .container text-center .col .container-servicios p,
+.servicios-4row .row .col .container-servicios .col .container-servicios p {
+  font-size: 16px;
+}
+
+/* COMIENZO de forma de trabajo */
+.containergrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 4%;
+}
+.containergrid .grid-items {
+  flex: 1 1 calc(50% - 20px);
+  /* 2 columnas con gap */
+  box-sizing: border-box;
+  align-items: center;
+}
+.containergrid .grid-items h2 {
+  font-size: 2.5rem !important;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.containergrid .grid-items p {
+  font-size: 18px;
+}
+.containergrid .grid-items h3 {
+  font-size: 1.5rem !important;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.containergrid .grid-items article {
+  padding-top: 50px;
+}
+
+/*COMIENZO llamada a la accion */
+.llamada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  text-align: center;
+  background-color: #ff953f;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.llamada h3 {
+  font-size: 2rem;
+  font-family: "Cabo", sans-serif;
+  font-weight: 600;
+}
+.llamada button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 15px;
+}
+.llamada button:hover {
+  background-color: #0056b3;
+}
+
+/*FIN llamada a la accion */
+/*Estilos Base - COMIENZO footer */
+footer {
+  background-color: #ff953f;
+  padding: 40px 50px; /* Simplificación del padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Centra el texto en el footer */
+  margin-top: 1px;
+}
+footer .menufooter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+footer .menufooter ul li {
+  list-style: none;
+  padding: 5px;
+}
+footer .copy {
+  color: black;
+  font-size: 17px;
+  font-style: normal;
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 30px;
 }/*# sourceMappingURL=style.css.map */

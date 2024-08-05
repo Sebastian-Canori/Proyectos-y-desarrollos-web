@@ -41,10 +41,9 @@ nav-link:hover::before {
   width: 250%;
 }
 
-@font-face{
-  font-family: "Cabo" ;
-  src: url("../MI-DESARROLLO-HTML/FUENTES/Cabin/Cabin-Bold.ttf");
-
+@font-face {
+  font-family: "Cabo";
+  src: url("../MI-DESARROLLO-HTML/FUENTES/Cabin/Cabin-Bold.ttf") format("truetype");
 }
 
 
@@ -73,7 +72,7 @@ nav-link:hover::before {
 
 /*Seccion HOME*/
 
-/* Estilos base Presentacion + Bienvenido a mi sitio*/
+/* Estilos base Presentacion + Bienvenido a mi sitio
 .container-presentacion,
 .container-desc {
   display: flex;
@@ -93,7 +92,7 @@ nav-link:hover::before {
 .right-img img {
   max-width: 50% !important;
   height: auto;
-}
+} */
 
 
 /* Media query para móviles Presentacion + Bienvenido a mi sitio*/
@@ -122,7 +121,7 @@ nav-link:hover::before {
 
 /* FIN Media query para móviles Presentacion + Bienvenido a mi sitio*/
 
-.right-img {
+/* .right-img {
   width: 50%;
   float: none;
   padding-left: 0 !important;
@@ -139,11 +138,11 @@ nav-link:hover::before {
   margin-top: 10px;
   width: 100%;
   max-width: 200px;
-}
+} */
 
 /* COMIENZO DE seccion quien soy*/
 
-.section-soy {
+/* .section-soy {
   background-color: rgb(129, 127, 125);
   margin: 0px;
   padding: 40px;
@@ -167,7 +166,7 @@ nav-link:hover::before {
   justify-content: space-between;
   display: inline-flex;
   align-items: center;
-}
+} */
 
 /* FIN seccion quien soy*/
 
@@ -191,7 +190,8 @@ nav-link:hover::before {
     flex-direction: row;
     text-align: left;
   }
-
+}
+/* 
   .column-left,
   .desciption-left {
     margin-bottom: 0;
@@ -209,11 +209,11 @@ nav-link:hover::before {
     margin-top: 0;
     width: 200px;
   }
-}
+} */
 /* FIN Estilos para escritorio presentacion corta 3 row home**/
 
 /* SERVICIO - Estilos base */
-.servicios-4row {
+/* .servicios-4row {
   text-align: center;
   padding: 20px;
   margin: 10px;
@@ -236,7 +236,7 @@ nav-link:hover::before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 @media screen and (max-width:500px) {
   .container-servicios{
@@ -257,7 +257,7 @@ nav-link:hover::before {
 /* FIN SERVICIO - Estilos base */
 
 /* COMIENZO de forma de trabajo */
-
+/* 
 .containergrid {
   display: flex;
   flex-wrap: wrap;
@@ -268,7 +268,7 @@ nav-link:hover::before {
   flex: 1 1 calc(50% - 20px); /* 2 columnas con gap */
   box-sizing: border-box;
   align-items: center;
-}
+} */
 
 @media (max-width: 500px) {
   .grid-items {
@@ -280,41 +280,12 @@ nav-link:hover::before {
   }
 }
 
-.logofinal {
-  max-width: 150px;
-  width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.menu {
-  position: relative;
-  margin-left: 100px;
-  text-decoration: none;
-}
-
-nav ul li {
-  display: inline-block; /* Para que los elementos de la lista sean en línea */
-  margin-right: 10px;
-  text-decoration: none !important;
-}
-
-.menu-principal {
-  position: relative;
-  align-content: end;
-}
-
-.mockup-home {
-  max-width: 50%;
-  align-items: flex-end;
-}
-
 /* COMIENZO DE QUIEN SOY - EXPERIENCIA - CONTACTO * DANDOLE GRIDDDDD/
 
   /* Estilos base */
 
 /*OPCION 1 CON VALORES*/
-.containergrid2 {
+/* .containergrid2 {
   background-color: #ff953f;
   margin: 0px;
   padding: 100px;
@@ -327,7 +298,7 @@ nav ul li {
   margin: 4px;
   height: auto;
   padding: 35px;
-}
+} */
 
 /*FIN DE -> DES - EXPERIENCIA - CONTACTO */
 
