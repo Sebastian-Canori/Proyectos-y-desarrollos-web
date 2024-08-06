@@ -1,4 +1,23 @@
 @charset "UTF-8";
+header {
+  /*nav boostrap*/
+}
+header .nav-item {
+  background-color: #ff953f;
+  border-radius: 5px;
+  align-items: center !important;
+  display: flex;
+}
+header .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
 header .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -56,7 +75,7 @@ header .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 * {
@@ -503,6 +522,4 @@ footer .socialContainer:hover .socialSvg {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-/* NUEVO MENU FOOTER *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

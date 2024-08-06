@@ -6,7 +6,7 @@ header{
   border-radius: 5px;
   align-items: center !important;
   display: flex;
-} */
+}
 
  .container-fluid {
   display: flex;
@@ -16,7 +16,7 @@ header{
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 } 
 
     .container-fluid {
@@ -76,7 +76,7 @@ header{
                                             flex-basis: 100%;
                                             flex-grow: 1;
                                             align-items: center;
-                                            justify-content: end;
+                                            justify-content: flex-end;
                                             }   
                                             
 }
