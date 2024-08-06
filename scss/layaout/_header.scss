@@ -1,25 +1,23 @@
 header{
-    /*nav boostrap*/
+        .nav-item {
+        background-color: #ff953f;
+        border-radius: 5px;
+        align-items: center !important;
+        display: flex;
+        }
 
- .nav-item {
-  background-color: #ff953f;
-  border-radius: 5px;
-  align-items: center !important;
-  display: flex;
-}
+        .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        }
+        .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: flex-end;
+        } 
 
- .container-fluid {
-  display: flex;
-  justify-content: space-between;
-}
-.navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
-  align-items: center;
-  justify-content: flex-end;
-} 
-
-    .container-fluid {
+        .container-fluid {
         display: flex;
         justify-content: space-between;
         padding:30px;
