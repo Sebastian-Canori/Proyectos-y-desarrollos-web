@@ -319,14 +319,14 @@ nav-link:hover::before {
 
 /*Estilos Base - COMIENZO footer */
 
-footer {
+/* footer {
   background-color: orange;
-  padding: 40px 50px; /* Simplificación del padding */
+  padding: 40px 50px; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center; /* Centra el texto en el footer */
+  text-align: center; 
   margin-top: 5px;
 }
 
@@ -343,7 +343,7 @@ footer {
   display: flex !important;
   align-items: center !important;
   justify-content: center;
-}
+} */
 
 @media (max-width: 500px) {
   .llamada {
@@ -352,7 +352,7 @@ footer {
     align-items: center;
   }
 
-  footer {
+/*   footer {
     padding-block: 30px;
     padding-left: 0px;
     text-align: center;
@@ -367,7 +367,7 @@ footer {
     font-family: sans-serif;
     text-align: left !important;
   }
-}
+} */
 
 /*--------------------SECCION TRAYECTORIA----------------------------*/
 .columnleft {
