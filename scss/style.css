@@ -615,9 +615,9 @@ footer .socialContainer:hover .socialSvg {
   }
 }
 /* Media Query para dispositivos móviles */
-.flexcolumn {
+  .flexcolumn {
   display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
   gap: 2px;
 }
 
@@ -626,8 +626,8 @@ footer .socialContainer:hover .socialSvg {
   flex: 1;
   padding: 16px;
   box-sizing: border-box;
-}
-.columnleft.columnleft,
+  }
+  .columnleft.columnleft,
 .trayectoria.columnleft {
   background-color: #f4f4f4;
 }
@@ -643,14 +643,30 @@ footer .socialContainer:hover .socialSvg {
   }
 }
 /*--------------------SECCION TRAYECTORIA----------------------------*/
-section .flexcolumn {
-  display: flex;
+section .flexcolumn .columnleft {
+  flex-wrap: wrap;
   padding-block: 15px;
-  padding: 50px;
+  padding: 4%;
   background-color: rgb(255, 255, 255);
+  height: 80vh;
+  
 }
 section .flexcolumn .trayectoria {
   min-width: 50%;
-  padding: 50px;
-  background-color: darkgrey;
-}/*# sourceMappingURL=style.css.map */
+  padding: 4%;
+  background-color: rgb(214, 214, 214);
+}
+
+H3{
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: "Cabo", sans-serif;
+  padding-top: 10px;
+    h4{
+      font-size: larger;
+    }
+  }
+
+
+
+/*# sourceMappingURL=style.css.map */
