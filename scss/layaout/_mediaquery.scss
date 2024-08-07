@@ -1,0 +1,165 @@
+/* Estilos para MOVIL presentacion corta row home**/
+// Media queries para dispositivos móviles
+@media (max-width: 500px) {
+    .container-presentacion{
+        display: flex;
+        flex-wrap: wrap;
+    
+        .column-left, .desciption-left {
+        margin-bottom: 50px;
+        padding: 0 !important;
+        min-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .mockup-home {
+            display: flex;
+            width: 100% !important; // Asegura que el contenedor de la imagen ocupe el 100% del ancho disponible
+
+                    img {
+                        display: flex;
+                        min-width: 100%!important; // Asegura que la imagen dentro del contenedor ocupe el 100% del ancho disponible
+                        height: auto; // Mantiene la proporción de la imagen
+                    }
+            }
+        }
+    }
+}
+/* FIN Estilos para MOVIL presentacion corta row home**/
+
+
+/* Media query para móviles Presentacion + Bienvenido a mi sitio*/
+@media (max-width: 500px) {
+    .container-presentacion,
+    .container-desc {
+      flex-direction: column;
+      text-align: center;
+      padding: 0px !important;
+      width: 100% !important;
+    }
+  
+    .column-left,
+    .desciption-left {
+      margin-bottom: 20px;
+      padding: 0px !important;
+    }
+    .desciption-left {
+      width: 100% !important;
+      align-items: center;
+    }
+    .right-img {
+      width: 100%;
+    }
+  }
+/* FIN Media query para móviles Presentacion + Bienvenido a mi sitio*/
+
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+@media (max-width: 500px) {
+    .containergrid2 {
+      grid-template-columns: 1fr !important;
+      padding: 20px !important;
+    }
+  
+    .grid-items {
+      text-align: center;
+    }
+  }
+  /* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+  //COMIENZO forma de trabajo //
+
+  @media (max-width: 500px) {
+    
+    .containergrid{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .grid-items {
+                    article {
+                        padding-top: 50px;
+                        padding: 25px;
+                        margin: 15px;
+                        border: solid 1px black;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+        }
+    }
+  }
+ }
+
+  // FIN DE FORMA DE TRABAJO//
+
+  //COMIENZO DE FOOTER //
+
+  @media (max-width: 500px) {
+    footer .menufooter ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+  }
+
+  /* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+/* Estilos para MOVIL presentacion corta row home**/
+@media (min-width: 500px) {
+    .container-presentacion .container-desc {
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+
+//SECCION TRAYECTORIA - QUIEN SOY
+
+/* Media Query para dispositivos móviles */
+// Variables de breakpoints
+$breakpoint-mobile: 768px;
+
+// Mixin para media queries
+@mixin media($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: $breakpoint-mobile) {
+      @content;
+    }
+  }
+}
+
+// Estilos para el contenedor de columnas
+.flexcolumn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px; // Espaciado entre columnas, ajusta según sea necesario
+}
+
+// Estilos para las columnas
+.columnleft,
+.trayectoria {
+  flex: 1; // Las columnas ocupan el mismo espacio disponible
+  padding: 16px; // Espaciado interno de las columnas, ajusta según sea necesario
+  box-sizing: border-box; // Incluye padding y border en el cálculo del ancho
+
+  // Estilos específicos para cada columna
+  &.columnleft {
+    background-color: #f4f4f4; // Ajusta según sea necesario
+  }
+
+  &.trayectoria {
+    background-color: #eaeaea; // Ajusta según sea necesario
+  }
+}
+
+// Estilos específicos para móviles
+@include media(mobile) {
+  .columnleft,
+  .trayectoria {
+    flex: 0 0 100%; // En móviles, cada columna ocupa el 100% del ancho
+  }
+}

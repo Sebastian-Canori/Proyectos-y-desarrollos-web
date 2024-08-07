@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 header .nav-item {
   background-color: #ff953f;
   border-radius: 5px;
@@ -121,7 +120,7 @@ header .navbar-collapse {
 }
 
 .mockup-home {
-  max-width: 40%;
+  max-width: 50%;
   display: flex;
   justify-content: flex-end;
 }
@@ -520,4 +519,146 @@ footer .socialContainer:hover .socialSvg {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+/* Estilos para MOVIL presentacion corta row home**/
+@media (max-width: 500px) {
+  .container-presentacion {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-presentacion .column-left, .container-presentacion .desciption-left {
+    margin-bottom: 50px;
+    padding: 0 !important;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container-presentacion .column-left .mockup-home, .container-presentacion .desciption-left .mockup-home {
+    display: flex;
+    width: 100% !important;
+  }
+  .container-presentacion .column-left .mockup-home img, .container-presentacion .desciption-left .mockup-home img {
+    display: flex;
+    min-width: 100% !important;
+    height: auto;
+  }
+}
+/* FIN Estilos para MOVIL presentacion corta row home**/
+/* Media query para móviles Presentacion + Bienvenido a mi sitio*/
+@media (max-width: 500px) {
+  .container-presentacion,
+  .container-desc {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px !important;
+    width: 100% !important;
+  }
+  .column-left,
+  .desciption-left {
+    margin-bottom: 20px;
+    padding: 0px !important;
+  }
+  .desciption-left {
+    width: 100% !important;
+    align-items: center;
+  }
+  .right-img {
+    width: 100%;
+  }
+}
+/* FIN Media query para móviles Presentacion + Bienvenido a mi sitio*/
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+@media (max-width: 500px) {
+  .containergrid2 {
+    grid-template-columns: 1fr !important;
+    padding: 20px !important;
+  }
+  .grid-items {
+    text-align: center;
+  }
+}
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+@media (max-width: 500px) {
+  .containergrid {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .containergrid .grid-items article {
+    padding-top: 50px;
+    padding: 25px;
+    margin: 15px;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  footer .menufooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+/* Estilos para MOVIL presentacion corta row home**/
+@media (min-width: 500px) {
+  .container-presentacion .container-desc {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+/* Media Query para dispositivos móviles */
+@media (max-width: 500px) {
+  .flexcolumn {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .flexcolumn .trayectoria {
+    width: 100%;
+    padding: 0px;
+  }
+  .flexcolumn .trayectoria .columnleft {
+    width: 100%;
+    padding: 0px;
+  }
+}
+/*--------------------SECCION TRAYECTORIA----------------------------*/
+.columnleft {
+  padding-left: 60px;
+  padding: 40px;
+}
+
+.trayectoria {
+  min-width: 50%;
+  padding: 50px;
+  background-color: darkgrey;
+}
+
+.flexcolumn {
+  display: flex;
+  padding-block: 15px;
+  padding: 50px;
+  background-color: darkgrey;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.columnleft,
+.trayectoria {
+  flex: 1;
+  padding: 60px;
+  height: 80vh;
 }/*# sourceMappingURL=style.css.map */
