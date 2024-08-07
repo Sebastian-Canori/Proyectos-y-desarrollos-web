@@ -615,9 +615,9 @@ footer .socialContainer:hover .socialSvg {
   }
 }
 /* Media Query para dispositivos móviles */
-  .flexcolumn {
+.flexcolumn {
   display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2px;
 }
 
@@ -626,8 +626,8 @@ footer .socialContainer:hover .socialSvg {
   flex: 1;
   padding: 16px;
   box-sizing: border-box;
-  }
-  .columnleft.columnleft,
+}
+.columnleft.columnleft,
 .trayectoria.columnleft {
   background-color: #f4f4f4;
 }
@@ -642,31 +642,294 @@ footer .socialContainer:hover .socialSvg {
     flex: 0 0 100%;
   }
 }
+/* Estilos para pantallas de 500px o menos SERVICIOS */
+@media (max-width: 500px) {
+  .container-padre {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+  .container-padre .vertical {
+    padding: 15%;
+  }
+  .container-padre .vertical h3 {
+    font-family: "Cabo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .container-padre img {
+    display: flex;
+    justify-content: center;
+    min-width: 100% !important;
+  }
+  .container-padre .column-text-column {
+    flex: 0 0 50%;
+    max-width: 90%;
+    align-items: center;
+    min-height: 450px;
+    margin-top: -50px;
+  }
+  .column-text-column {
+    flex: 0 0 100%;
+    max-width: 90%;
+    align-items: top;
+  }
+  .container2 .vertical {
+    padding: 15%;
+  }
+  .container2 .vertical h3 {
+    font-family: "Cabo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .container2 .column-text-column {
+    max-width: 90%;
+  }
+  .container-3-servicios {
+    flex-direction: column;
+  }
+  .container-3-servicios .vertical {
+    padding: 15%;
+  }
+  .container-3-servicios .vertical h3 {
+    font-family: "Cabo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .container-3-servicios img {
+    width: 100%;
+  }
+  .column-text-column3 {
+    flex: 0 0 50%;
+    max-width: 90%;
+    align-items: center;
+    min-height: 450px;
+    padding-top: 20px;
+  }
+}
+/* -----------FIN SECCION SERVICIOS-------------------*/
+/*--------------- RESPONSIVE TRABAJOS -----*/
+@media screen and (max-width: 500px) {
+  .container .row .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .nav-item {
+    border-radius: 5px;
+    align-items: center !important;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.49);
+    display: inline-block;
+    padding-top: 5px;
+    text-align: center;
+  }
+  .navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 20px;
+  }
+  header .nav-link {
+    padding: 0.5em 0.7em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #007eff;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    outline: 1px solid #1b1b1b;
+  }
+}
 /*--------------------SECCION TRAYECTORIA----------------------------*/
 section .flexcolumn .columnleft {
-  flex-wrap: wrap;
-  padding-block: 15px;
-  padding: 4%;
+  padding: 60px;
+  padding: 50px;
   background-color: rgb(255, 255, 255);
-  height: 80vh;
-  
 }
-section .flexcolumn .trayectoria {
+section .flexcolumn .columnleft .trayectoria {
   min-width: 50%;
-  padding: 4%;
-  background-color: rgb(214, 214, 214);
+  padding: 100px;
+  background-color: darkgrey;
 }
 
-H3{
-  font-size: 3.2rem;
-  font-weight: 700;
+/**-------------SECCION SERVICIOS------------------*/
+/* Estilos generales */
+.container-padre,
+.container2,
+.container-3-servicios,
+.column-text-column,
+.column-image-column {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+  height: auto;
+}
+.container-padre .vertical,
+.container2 .vertical,
+.container-3-servicios .vertical,
+.column-text-column .vertical,
+.column-image-column .vertical {
+  padding: 15%;
+}
+.container-padre .vertical h3,
+.container2 .vertical h3,
+.container-3-servicios .vertical h3,
+.column-text-column .vertical h3,
+.column-image-column .vertical h3 {
   font-family: "Cabo", sans-serif;
-  padding-top: 10px;
-    h4{
-      font-size: larger;
-    }
-  }
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 
+.container-3-servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: auto;
+}
 
+.column-image-column img {
+  max-height: 500px;
+}
 
-/*# sourceMappingURL=style.css.map */
+.column-text-column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  align-items: center;
+  min-height: 450px;
+}
+
+.column-image-column1 img {
+  flex: 0 0 100%;
+  max-width: 100%;
+  min-height: 450px;
+  justify-content: end !important;
+}
+
+.container2 {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.container-padre,
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.column-image-column1,
+.column-text-column,
+.column-image-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.container2 {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+/*-----  TRABAJOS -----*/
+.main-solapas-trabajo {
+  padding: 40px !important;
+}
+
+.container text-center,
+.row .col {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.descripcion-flex {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  padding-left: 40px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.desc-trabajo {
+  text-align: left;
+}
+
+.container text-center,
+.row .col {
+  display: flex;
+  margin: 10px;
+}
+.container text-center h1,
+.row .col h1 {
+  font-family: "Cabo", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#home-tab {
+  margin: 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: center !important;
+}
+
+.container text-center,
+.row .col {
+  display: flex;
+  margin: 10px;
+  justify-content: end;
+}
+
+.col .contacto-right .form {
+  flex-basis: 100%;
+  justify-content: start !important;
+  width: 100%;
+  text-align: start;
+}
+
+.contacto-right {
+  text-align: left;
+}
+
+.col img-contact {
+  width: 400px;
+}/*# sourceMappingURL=style.css.map */
