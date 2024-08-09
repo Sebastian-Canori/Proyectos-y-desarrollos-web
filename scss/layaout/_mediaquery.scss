@@ -163,3 +163,155 @@ $breakpoint-mobile: 768px;
     flex: 0 0 100%; // En móviles, cada columna ocupa el 100% del ancho
   }
 }
+
+/* Estilos para pantallas de 500px o menos SERVICIOS */
+@media (max-width: 500px) {
+  .container-padre{
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+    .vertical {
+      padding: 15%;
+        h3{
+            font-family: "Cabo", sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    }
+    
+       img{
+        display: flex;
+        justify-content: center;
+        min-width: 100%!important;
+      }
+    
+      .column-text-column {
+        flex: 0 0 50%;
+        max-width: 90%;
+        align-items: center;
+        min-height: 450px;
+        margin-top: -50px;
+      }
+    } 
+    .column-text-column {
+      flex: 0 0 100%;
+      max-width: 90%;
+      align-items: top;
+      
+    }
+  
+    .container2{
+      .vertical {
+        padding: 15%;
+          h3{
+              font-family: "Cabo", sans-serif;
+              font-size: 1.8rem;
+              font-weight: 600;
+          }
+      }
+      .column-text-column{
+        max-width: 90%;
+      }
+    }
+  
+    .container-3-servicios{
+        flex-direction: column;
+        .vertical {
+          padding: 15%;
+            h3{
+                font-family: "Cabo", sans-serif;
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+        }
+          img{
+            width: 100%;
+          }
+    }
+  
+    .column-text-column3 {
+      flex: 0 0 50%;
+      max-width: 90%;
+      align-items: center;
+      min-height: 450px;
+      padding-top: 20px;
+    
+    } 
+
+    
+    }
+
+/* -----------FIN SECCION SERVICIOS-------------------*/
+
+/*--------------- RESPONSIVE TRABAJOS -----*/
+
+@media screen and (max-width: 500px) {
+
+  .container .row .col {
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+
+
+//CONTACTO
+
+@media screen and (max-width:500px) {
+
+  .row {
+      display: flex;
+      flex-direction: column;
+      flex-basis: auto;
+  }
+}
+
+// HEADER
+@media screen and (max-width:500px) {
+
+header .nav-item {
+  border-radius: 5px;
+  align-items: center !important;
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+  background-color: rgb(255 255 255 / 49%);
+  display: inline-block;
+  padding-top: 5px;
+  text-align: center;
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+header .nav-link {
+  padding: 0.5em 0.7em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #007eff;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  outline: 1px solid #1b1b1b;
+}
+
+}

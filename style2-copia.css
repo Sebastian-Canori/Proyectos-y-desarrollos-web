@@ -370,7 +370,7 @@ nav-link:hover::before {
 } */
 
 /*--------------------SECCION TRAYECTORIA----------------------------*/
-.columnleft {
+/* .columnleft {
   padding-left: 60px;
   padding: 40px;
 }
@@ -398,7 +398,7 @@ nav-link:hover::before {
   flex: 1;
   padding: 60px;
   height: 80vh;
-}
+} */
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 500px) {
@@ -482,7 +482,7 @@ nav-link:hover::before {
   background-color: rgb(230, 230, 230);
 }
 
-/* Estilos para pantallas de 500px o menos */
+/* Estilos para pantallas de 500px o menos SERVICIOS */
 @media (max-width: 500px) {
   .container-padre,
   .container2,

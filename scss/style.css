@@ -642,22 +642,140 @@ footer .socialContainer:hover .socialSvg {
     flex: 0 0 100%;
   }
 }
+/* Estilos para pantallas de 500px o menos SERVICIOS */
+@media (max-width: 500px) {
+  .container-padre {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+  .container-padre .vertical {
+    padding: 15%;
+  }
+  .container-padre .vertical h3 {
+    font-family: "Cabo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .container-padre img {
+    display: flex;
+    justify-content: center;
+    min-width: 100% !important;
+  }
+  .container-padre .column-text-column {
+    flex: 0 0 50%;
+    max-width: 90%;
+    align-items: center;
+    min-height: 450px;
+    margin-top: -50px;
+  }
+  .column-text-column {
+    flex: 0 0 100%;
+    max-width: 90%;
+    align-items: top;
+  }
+  .container2 .vertical {
+    padding: 15%;
+  }
+  .container2 .vertical h3 {
+    font-family: "Cabo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .container2 .column-text-column {
+    max-width: 90%;
+  }
+  .container-3-servicios {
+    flex-direction: column;
+  }
+  .container-3-servicios .vertical {
+    padding: 15%;
+  }
+  .container-3-servicios .vertical h3 {
+    font-family: "Cabo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .container-3-servicios img {
+    width: 100%;
+  }
+  .column-text-column3 {
+    flex: 0 0 50%;
+    max-width: 90%;
+    align-items: center;
+    min-height: 450px;
+    padding-top: 20px;
+  }
+}
+/* -----------FIN SECCION SERVICIOS-------------------*/
+/*--------------- RESPONSIVE TRABAJOS -----*/
+@media screen and (max-width: 500px) {
+  .container .row .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .nav-item {
+    border-radius: 5px;
+    align-items: center !important;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.49);
+    display: inline-block;
+    padding-top: 5px;
+    text-align: center;
+  }
+  .navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 20px;
+  }
+  header .nav-link {
+    padding: 0.5em 0.7em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #007eff;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    outline: 1px solid #1b1b1b;
+  }
+}
 /*--------------------SECCION TRAYECTORIA----------------------------*/
-section .columnleft.trayectoria, section .trayectoria.trayectoria {
-  background-color: #ffffff;
-}
-section .columnleft, section .trayectoria {
-  flex: 1;
-  padding: 50px;
-  box-sizing: border-box;
-}
-section .columnleft .flexcolumn, section .trayectoria .flexcolumn {
+section .flexcolumn {
   display: flex;
   padding-block: 15px;
   padding: 50px;
   background-color: #cbcbcb;
 }
-section .columnleft .flexcolumn .trayectoria, section .trayectoria .flexcolumn .trayectoria {
+section .flexcolumn .trayectoria {
   min-width: 50%;
-  background-color: rgb(210, 55, 55);
+  padding: 50px;
+  background-color: darkgrey;
 }/*# sourceMappingURL=style.css.map */
