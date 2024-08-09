@@ -11,14 +11,6 @@
   align-items: center;
   width: 100% !important;
   height: auto;
-  .vertical {
-    padding: 15%;
-      h3{
-          font-family: "Cabo", sans-serif;
-          font-size: 2.5rem;
-          font-weight: 600;
-      }
-  }
 }
 
 .container-3-servicios {
@@ -70,7 +62,14 @@
   padding: 10px;
 }
 
-
+.vertical {
+  padding: 8%;
+    h3{
+        font-family: "Cabo", sans-serif;
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+}
 
 .container2 {
   width: 100%;

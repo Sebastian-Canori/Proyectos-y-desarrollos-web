@@ -791,22 +791,6 @@ section .flexcolumn .columnleft .trayectoria {
   width: 100% !important;
   height: auto;
 }
-.container-padre .vertical,
-.container2 .vertical,
-.container-3-servicios .vertical,
-.column-text-column .vertical,
-.column-image-column .vertical {
-  padding: 15%;
-}
-.container-padre .vertical h3,
-.container2 .vertical h3,
-.container-3-servicios .vertical h3,
-.column-text-column .vertical h3,
-.column-image-column .vertical h3 {
-  font-family: "Cabo", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 600;
-}
 
 .container-3-servicios {
   display: flex;
@@ -855,6 +839,15 @@ section .flexcolumn .columnleft .trayectoria {
 .column-image-column {
   flex: 1;
   padding: 10px;
+}
+
+.vertical {
+  padding: 8%;
+}
+.vertical h3 {
+  font-family: "Cabo", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 600;
 }
 
 .container2 {
