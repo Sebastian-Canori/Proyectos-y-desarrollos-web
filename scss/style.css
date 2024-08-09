@@ -814,6 +814,84 @@ column-image-column1 {
   flex-basis: 50%;
 }
 
+/**-------------SECCION SERVICIOS------------------*/
+/* Estilos generales */
+.container-padre,
+.container2,
+.container-3-servicios,
+.column-text-column,
+.column-image-column {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+  height: auto;
+}
+
+.container-3-servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: auto;
+}
+
+.column-image-column img {
+  max-height: 500px;
+}
+
+.column-text-column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  align-items: center;
+  min-height: 450px;
+}
+
+.column-image-column1 img {
+  flex: 0 0 100%;
+  max-width: 100%;
+  min-height: 450px;
+  justify-content: end !important;
+}
+
+.container2 {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.container-padre,
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.column-image-column1,
+.column-text-column,
+.column-image-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.vertical {
+  padding: 8%;
+}
+.vertical h3 {
+  font-family: "Cabo", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.container2 {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
 /*-----  TRABAJOS -----*/
 .main-solapas-trabajo {
   padding: 40px !important;
