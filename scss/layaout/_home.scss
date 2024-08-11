@@ -200,12 +200,12 @@
     .row .col .container-servicios {
         display: flex;
         margin: 5px;
-        padding: 20px !important;
+        padding: 15px !important;
         justify-content: center;
         flex-wrap: wrap;
         background: #e7e7e7;
         padding: 20px;
-        min-height: 440px;
+        min-height: 460px;
         border-radius: 30px;
         background-color: #343a4027;
 
@@ -289,7 +289,7 @@
                             }
                             article {
                                 padding-top: 50px;
-                                padding: 25px;
+                                padding: 10px;
                                 margin: 15px;
                                 border: solid 1px black;
                                 display: flex;
@@ -304,8 +304,8 @@
                             .img-formas{
                                 max-width: 100px!important;
                                 max-height: 100px!important;
-                                padding-top: 20px;
-                                margin-right: 20px;
+                                padding-top: 10px;
+                                margin-right: 10px;
                             }
                             .icon-title{
                                 padding-right: 15px;
