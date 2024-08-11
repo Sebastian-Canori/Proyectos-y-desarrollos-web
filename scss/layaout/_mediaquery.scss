@@ -1,0 +1,335 @@
+/* Estilos para MOVIL presentacion corta row home**/
+// Media queries para dispositivos móviles
+@media (max-width: 500px) {
+  .container-presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+
+    .column-left,
+    .desciption-left {
+      padding: 50px !important;
+      min-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .mockup-home {
+      display: flex;
+      min-width: 100% !important;
+      padding-bottom: 50px;
+    }
+  }
+}
+
+/* FIN Estilos para MOVIL presentacion corta row home**/
+
+
+/* Media query para móviles Presentacion + Bienvenido a mi sitio*/
+@media (max-width: 500px) {
+
+  .container-presentacion,
+  .container-desc {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px !important;
+    width: 100% !important;
+  }
+
+  .column-left,
+  .desciption-left {
+    margin-bottom: 20px;
+    padding: 0px !important;
+  }
+
+  .desciption-left {
+    width: 100% !important;
+    align-items: center;
+  }
+
+  .right-img {
+    width: 100%;
+  }
+}
+
+/* FIN Media query para móviles Presentacion + Bienvenido a mi sitio*/
+
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+@media (max-width: 500px) {
+  .containergrid2 {
+    grid-template-columns: 1fr !important;
+    padding: 20px !important;
+  }
+
+  .grid-items {
+    text-align: center;
+  }
+}
+
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+// COMIENZO SERVICIOS -HOME
+@media (max-width: 500px) {
+  .servicios-4row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-sub {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-basis: 100%;
+    justify-content: center;
+
+    h2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      justify-content: center;
+    }
+
+    p {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      justify-content: center;
+    }
+  }
+
+  .col {
+    display: flex;
+
+    .container-servicios {
+      display: flex !important;
+      flex-wrap: wrap !important;
+
+      h3 {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+
+
+// LLAMADA A LA ACCION
+
+@media (max-width: 500px) {
+  .llamada {
+    min-width: 50%;
+    min-height: 200px;
+
+    h3 {font-size: 1.5rem;}
+  }
+
+}
+
+
+
+//COMIENZO forma de trabajo //
+
+@media (max-width: 500px) {
+
+  .containergrid {
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .grid-items {
+      article {
+        padding-top: 50px;
+        padding: 25px;
+        margin: 15px;
+        border: solid 1px black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+// FIN DE FORMA DE TRABAJO//
+
+//COMIENZO DE FOOTER //
+
+@media (max-width: 500px) {
+  footer .menufooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+}
+
+/* Media query para móviles 1 columnas quien soy - 3 row home*/
+
+/* Estilos para MOVIL presentacion corta row home**/
+@media (min-width: 500px) {
+  .container-presentacion .container-desc {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+//SECCION TRAYECTORIA - QUIEN SOY
+
+@media (max-width: 500px) {
+
+  .flexcolumn{
+    display: flex!important;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    h3{
+      font-size: 2rem;
+      font-family: "Cabo", sans-serif;
+      font-weight: 600;
+    }
+  }
+    .columnleft{
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%!important;
+    }
+
+    .img-title-des{
+      display: flex;
+      flex-wrap: wrap;
+      min-width: 100%;
+      padding-bottom: 15px;
+    }
+}
+
+/* Estilos para pantallas de 500px o menos SERVICIOS */
+@media (max-width: 500px) {
+  .container-padre {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    flex-basis: 100%;
+
+    .column-text-tiendas {
+      padding: 50px;
+      flex-basis: 100%;
+      text-align: left;
+    }
+
+    .column-text-hosting {
+      padding: 50px;
+      flex-basis: 100%;
+      text-align: left;
+    }
+  }
+
+  .container-3-servicios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    flex-basis: 100%;
+
+  }
+
+}
+
+/* -----------FIN SECCION SERVICIOS-------------------*/
+
+/*--------------- RESPONSIVE TRABAJOS -----*/
+
+@media screen and (max-width: 500px) {
+
+  .container .row .col {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .descripcion-flex {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: left;
+    text-align: left;
+    padding-left: 0px !important;
+  }
+
+}
+
+
+//CONTACTO
+
+@media screen and (max-width:500px) {
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+  }
+}
+
+// HEADER
+@media screen and (max-width:500px) {
+
+  header .nav-item {
+    border-radius: 5px;
+    align-items: center !important;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: rgb(255 255 255 / 49%);
+    display: inline-block;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  header .nav-link {
+    padding: 0.5em 0.7em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #007eff;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    outline: 1px solid #1b1b1b;
+  }
+
+}

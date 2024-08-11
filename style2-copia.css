@@ -90,16 +90,27 @@ nav-link:hover::before {
   width: 250%;
 }
 
+<<<<<<< HEAD:style.css
+=======
+@font-face {
+  font-family: "Cabo";
+  src: url("../MI-DESARROLLO-HTML/FUENTES/Cabin/Cabin-Bold.ttf") format("truetype");
+}
+
+
+
+/*FIN de estilos de botones de barra de navegacion */
+>>>>>>> avances-PRINCIPALES:style2-copia.css
 /*nav boostrap*/
 
-.nav-item {
+/* .nav-item {
   background-color: #ff953f;
   border-radius: 5px;
   align-items: center !important;
   display: flex;
-}
+} */
 
-.container-fluid {
+/* .container-fluid {
   display: flex;
   justify-content: space-between;
 }
@@ -108,22 +119,12 @@ nav-link:hover::before {
   flex-grow: 1;
   align-items: center;
   justify-content: end;
-}
+} */
 
-.navbar > .container,
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-  padding-left: 60px;
-  padding-right: 30px;
-}
 
 /*Seccion HOME*/
 
-/* Estilos base Presentacion + Bienvenido a mi sitio*/
+/* Estilos base Presentacion + Bienvenido a mi sitio
 .container-presentacion,
 .container-desc {
   display: flex;
@@ -143,7 +144,7 @@ nav-link:hover::before {
 .right-img img {
   max-width: 50% !important;
   height: auto;
-}
+} */
 
 
 /* Media query para móviles Presentacion + Bienvenido a mi sitio*/
@@ -172,7 +173,7 @@ nav-link:hover::before {
 
 /* FIN Media query para móviles Presentacion + Bienvenido a mi sitio*/
 
-.right-img {
+/* .right-img {
   width: 50%;
   float: none;
   padding-left: 0 !important;
@@ -189,12 +190,17 @@ nav-link:hover::before {
   margin-top: 10px;
   width: 100%;
   max-width: 200px;
-}
+} */
 
 /* COMIENZO DE seccion quien soy*/
 
+<<<<<<< HEAD:style.css
 .section-soy {
   background-color: rgb(238, 238, 238);
+=======
+/* .section-soy {
+  background-color: rgb(129, 127, 125);
+>>>>>>> avances-PRINCIPALES:style2-copia.css
   margin: 0px;
   padding: 40px;
   align-items: center;
@@ -217,7 +223,7 @@ nav-link:hover::before {
   justify-content: space-between;
   display: inline-flex;
   align-items: center;
-}
+} */
 
 /* FIN seccion quien soy*/
 
@@ -241,7 +247,8 @@ nav-link:hover::before {
     flex-direction: row;
     text-align: left;
   }
-
+}
+/* 
   .column-left,
   .desciption-left {
     margin-bottom: 0;
@@ -259,11 +266,11 @@ nav-link:hover::before {
     margin-top: 0;
     width: 200px;
   }
-}
+} */
 /* FIN Estilos para escritorio presentacion corta 3 row home**/
 
 /* SERVICIO - Estilos base */
-.servicios-4row {
+/* .servicios-4row {
   text-align: center;
   padding: 20px;
   margin: 10px;
@@ -286,7 +293,7 @@ nav-link:hover::before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 @media screen and (max-width:500px) {
   .container-servicios{
@@ -307,7 +314,7 @@ nav-link:hover::before {
 /* FIN SERVICIO - Estilos base */
 
 /* COMIENZO de forma de trabajo */
-
+/* 
 .containergrid {
   display: flex;
   flex-wrap: wrap;
@@ -318,7 +325,7 @@ nav-link:hover::before {
   flex: 1 1 calc(50% - 20px); /* 2 columnas con gap */
   box-sizing: border-box;
   align-items: center;
-}
+} */
 
 @media (max-width: 500px) {
   .grid-items {
@@ -330,41 +337,12 @@ nav-link:hover::before {
   }
 }
 
-.logofinal {
-  max-width: 150px;
-  width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.menu {
-  position: relative;
-  margin-left: 100px;
-  text-decoration: none;
-}
-
-nav ul li {
-  display: inline-block; /* Para que los elementos de la lista sean en línea */
-  margin-right: 10px;
-  text-decoration: none !important;
-}
-
-.menu-principal {
-  position: relative;
-  align-content: end;
-}
-
-.mockup-home {
-  max-width: 50%;
-  align-items: flex-end;
-}
-
 /* COMIENZO DE QUIEN SOY - EXPERIENCIA - CONTACTO * DANDOLE GRIDDDDD/
 
   /* Estilos base */
 
 /*OPCION 1 CON VALORES*/
-.containergrid2 {
+/* .containergrid2 {
   background-color: #ff953f;
   margin: 0px;
   padding: 100px;
@@ -377,7 +355,7 @@ nav ul li {
   margin: 4px;
   height: auto;
   padding: 35px;
-}
+} */
 
 /*FIN DE -> DES - EXPERIENCIA - CONTACTO */
 
@@ -398,14 +376,14 @@ nav ul li {
 
 /*Estilos Base - COMIENZO footer */
 
-footer {
+/* footer {
   background-color: orange;
-  padding: 40px 50px; /* Simplificación del padding */
+  padding: 40px 50px; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center; /* Centra el texto en el footer */
+  text-align: center; 
   margin-top: 5px;
 }
 
@@ -422,7 +400,7 @@ footer {
   display: flex !important;
   align-items: center !important;
   justify-content: center;
-}
+} */
 
 @media (max-width: 500px) {
   .llamada {
@@ -431,7 +409,7 @@ footer {
     align-items: center;
   }
 
-  footer {
+/*   footer {
     padding-block: 30px;
     padding-left: 0px;
     text-align: center;
@@ -446,10 +424,10 @@ footer {
     font-family: sans-serif;
     text-align: left !important;
   }
-}
+} */
 
 /*--------------------SECCION TRAYECTORIA----------------------------*/
-.columnleft {
+/* .columnleft {
   padding-left: 60px;
   padding: 40px;
 }
@@ -477,7 +455,7 @@ footer {
   flex: 1;
   padding: 60px;
   height: 80vh;
-}
+} */
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 500px) {
@@ -561,7 +539,7 @@ footer {
   background-color: rgb(230, 230, 230);
 }
 
-/* Estilos para pantallas de 500px o menos */
+/* Estilos para pantallas de 500px o menos SERVICIOS */
 @media (max-width: 500px) {
   .container-padre,
   .container2,
