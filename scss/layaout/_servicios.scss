@@ -4,15 +4,23 @@
 .container-padre {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   justify-content: space-between;
   padding: 5px;
+
+  .column-image-column1, .column-text-column, .column-image-column {
+    flex: 1;
+    padding: 10px;
+    min-width: 50%;
+}
   
 
   .column-image-column1 {
     flex-basis: 50%;
     padding-left: 20px;
-
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+   
     .vertical {
       h3 {
         font-family: "Cabo", sans-serif;
@@ -26,17 +34,37 @@
       }
     }
   }
-=======
-  width: 100% !important;
-  height: auto;
->>>>>>> 8bcc80161974a9e8046b0315548d274eac550e93
 }
 
 
-<<<<<<< HEAD
-column-image-column1{
+.column-image-column, .column-text-column3{
     flex-basis: 50%;
-=======
+    display: flex;
+    justify-content: center;
+}
+/**-------------SECCION SERVICIOS------------------*/
+
+/* Estilos generales */
+
+.container-padre,
+.container2,
+.container-3-servicios,
+.column-text-column,
+.column-image-column {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+  height: auto;
+}
+
+.container-3-servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: auto;
+}
+
 .column-image-column img {
   max-height: 500px;
 }
@@ -65,32 +93,7 @@ column-image-column1{
 .container-padre,
 .container2 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px;
   align-items: center;
 }
 
-.column-image-column1,
-.column-text-column,
-.column-image-column {
-  flex: 1;
-  padding: 10px;
-}
-
-.vertical {
-  padding: 8%;
-    h3{
-        font-family: "Cabo", sans-serif;
-        font-size: 3.2rem;
-        font-weight: 600;
-    }
-}
-
-.container2 {
-  width: 100%;
-  flex-direction: row-reverse !important;
-  align-items: center;
-  background-color: rgb(230, 230, 230);
->>>>>>> 8bcc80161974a9e8046b0315548d274eac550e93
-}

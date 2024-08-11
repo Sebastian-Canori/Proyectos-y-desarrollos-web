@@ -796,9 +796,17 @@ section .columnleft .flexcolumn .trayectoria, section .trayectoria .flexcolumn .
   justify-content: space-between;
   padding: 5px;
 }
+.container-padre .column-image-column1, .container-padre .column-text-column, .container-padre .column-image-column {
+  flex: 1;
+  padding: 10px;
+  min-width: 50%;
+}
 .container-padre .column-image-column1 {
   flex-basis: 50%;
   padding-left: 20px;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
 }
 .container-padre .column-image-column1 .vertical h3 {
   font-family: "Cabo", sans-serif;
@@ -810,8 +818,10 @@ section .columnleft .flexcolumn .trayectoria, section .trayectoria .flexcolumn .
   line-height: 1.5;
 }
 
-column-image-column1 {
+.column-image-column, .column-text-column3 {
   flex-basis: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 /**-------------SECCION SERVICIOS------------------*/
