@@ -28,3 +28,10 @@
 .desc-trabajo{
 text-align: left;
 }
+.bot-trabajos{
+  background-color: $color-boton;
+  padding:$padd-boton;
+  border-radius: $border-radius-bot;
+  font-size: $font-size-bot;
+  color:$color-bot;
+}
