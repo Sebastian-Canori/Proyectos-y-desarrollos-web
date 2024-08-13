@@ -97,7 +97,7 @@ header .navbar-collapse {
   padding: 6%;
 }
 .container-presentacion .column-left h1 {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   margin-bottom: 1rem;
   font-weight: 600;
 }
@@ -989,6 +989,16 @@ footer .socialContainer:hover .socialSvg {
 
 .contacto-right {
   text-align: left;
+}
+.contacto-right .form button, .contacto-right .form input, .contacto-right .form optgroup, .contacto-right .form select, .contacto-right .form textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: solid orange 1px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 3px;
 }
 
 .col img-contact {

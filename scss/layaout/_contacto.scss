@@ -37,6 +37,20 @@
 
 .contacto-right{
   text-align: left;
+  .form{
+    
+    button, input, optgroup, select, textarea {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      border: solid orange 1px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      padding: 3px;
+  }
+  }
+
 }
 
 .col img-contact {
