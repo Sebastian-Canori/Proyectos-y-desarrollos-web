@@ -977,7 +977,7 @@ footer .socialContainer:hover .socialSvg {
 .row .col {
   display: flex;
   margin: 10px;
-  justify-content: end;
+  justify-content: center;
 }
 
 .col .contacto-right .form {
@@ -991,6 +991,8 @@ footer .socialContainer:hover .socialSvg {
   text-align: left;
 }
 .contacto-right .form button, .contacto-right .form input, .contacto-right .form optgroup, .contacto-right .form select, .contacto-right .form textarea {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -999,8 +1001,14 @@ footer .socialContainer:hover .socialSvg {
   margin-top: 3px;
   margin-bottom: 3px;
   padding: 3px;
+  width: 100%;
 }
 
 .col img-contact {
   width: 400px;
+}
+
+img, svg {
+  vertical-align: middle;
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */

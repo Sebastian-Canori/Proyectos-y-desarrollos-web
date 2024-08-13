@@ -25,7 +25,7 @@
 .row .col {
   display: flex;
   margin: 10px;
-  justify-content: end;
+  justify-content: center;
 }
 
 .col .contacto-right .form {
@@ -40,6 +40,8 @@
   .form{
     
     button, input, optgroup, select, textarea {
+      display: flex;
+      flex-wrap: wrap;
       margin: 0;
       font-family: inherit;
       font-size: inherit;
@@ -48,6 +50,7 @@
       margin-top: 3px;
       margin-bottom: 3px;
       padding: 3px;
+      width: 100%;
   }
   }
 
@@ -55,4 +58,8 @@
 
 .col img-contact {
   width: 400px;
+}
+img, svg {
+  vertical-align: middle;
+  border-radius: 25px;
 }
