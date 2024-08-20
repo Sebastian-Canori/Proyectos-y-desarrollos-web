@@ -542,6 +542,75 @@ footer .socialContainer:hover .socialSvg {
     padding-bottom: 50px;
   }
 }
+@media screen and (min-width: 501px) and (max-width: 729px) {
+  .container-presentacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+    background-color: #ffffff;
+    flex-direction: column;
+    min-width: 100%;
+  }
+  .column-left {
+    opacity: 1;
+    transform: translateZ(0);
+    min-width: 100%;
+  }
+  .mockup-home {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    min-width: 100% !important;
+  }
+  .mockup-home .img {
+    display: flex;
+    flex-basis: 100%;
+  }
+  .containergrid2 {
+    background-color: #ff953f;
+    margin: 0px;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 729px) and (max-width: 992px) {
+  .container-presentacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+  [data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+    width: 100% !important;
+    flex-basis: 100%;
+    min-width: 100%;
+  }
+  .mockup-home {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .containergrid2 {
+    background-color: #ff953f;
+    margin: 0px;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+  }
+}
 /* FIN Estilos para MOVIL presentacion corta row home**/
 /* Media query para móviles Presentacion + Bienvenido a mi sitio*/
 @media (max-width: 500px) {
@@ -613,6 +682,48 @@ footer .socialContainer:hover .socialSvg {
     flex-basis: 100%;
   }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .container-servicios {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container-servicios {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .containergrid2 {
+    background-color: #ff953f;
+    margin: 0px;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1500px) {
+  .container-servicios {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .containergrid {
+    display: flex;
+    padding: 4%;
+    flex: min-content;
+    flex-wrap: wrap;
+    direction: unset;
+    flex-direction: column;
+  }
+}
 @media (max-width: 500px) {
   .llamada {
     min-width: 50%;
@@ -635,6 +746,21 @@ footer .socialContainer:hover .socialSvg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .containergrid {
+    display: flex;
+    padding: 4%;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .containergrid {
+    display: flex;
+    padding: 4%;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
