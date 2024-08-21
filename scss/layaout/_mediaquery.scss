@@ -370,6 +370,35 @@
       padding-bottom: 15px;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  
+    .flexcolumn {
+      display: flex;
+      flex-wrap: wrap!important;
+      flex-direction: column!important;
+    }
+    .columnleft{
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%!important;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width:992px) {
+    .columnleft{
+      max-width: 50%!important;
+  }
+  .flexcolumn .trayectoria {
+    flex-wrap: wrap !important;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 50px;
+    background-color: #b9b9b9;
+    max-width: 50%;
+  }
+
+  }
+
 
 /* Estilos para pantallas de 500px o menos SERVICIOS */
 @media (max-width: 500px) {
@@ -411,6 +440,114 @@
     flex-basis: 100%;
 
   }
+
+}
+
+@media screen and (min-width:501px) and (max-width:768px){
+  .column-text-column {
+    display: flex;
+    min-width: 100%;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    padding: 50px!important;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-3-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container-padre{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column-text-tiendas {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    padding: 50px;
+    text-align: left!important;
+    min-width: 100%;
+  }
+
+  .column-text-hosting {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    min-width: 100%;
+    text-align: left;
+  }
+  .vertical{
+    justify-content: center;
+    min-width: 100%;
+    text-align: left;
+  }
+}
+@media screen and (min-width:569px) and (max-width:992px){
+  .column-text-column {
+    display: flex;
+    min-width: 100%;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    padding: 50px!important;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-3-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container-padre{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column-text-tiendas {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    padding: 50px;
+    text-align: left!important;
+    min-width: 100%;
+  }
+
+  .column-text-hosting {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    min-width: 100%;
+    text-align: left;
+  }
+  .vertical{
+    justify-content: center;
+    min-width: 100%;
+    text-align: left;
+  }
+  .column-image-column1 {
+    display: flex;
+    flex-basis: 100%!important;
+    justify-content: center;
+    min-width: 100%;
+  }
+
+  .column-text-mantenimientos {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    padding: 50px;
+    min-width: 100%;
+  }
+
+
 
 }
 
