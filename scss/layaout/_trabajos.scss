@@ -3,6 +3,8 @@
 
 /*-----  TRABAJOS -----*/
 
+
+
 .main-solapas-trabajo {
   padding: 40px !important;
 }
@@ -34,4 +36,25 @@ text-align: left;
   border-radius: $border-radius-bot;
   font-size: $font-size-bot;
   color:$color-bot;
+}
+
+.nav {
+	--bs-nav-link-padding-x: 1rem;
+	--bs-nav-link-padding-y: 0.5rem;
+	--bs-nav-link-font-weight: ;
+	--bs-nav-link-color: var(--bs-link-color);
+	--bs-nav-link-hover-color: var(--bs-link-hover-color);
+	--bs-nav-link-disabled-color: var(--bs-secondary-color);
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	align-items: baseline;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	isolation: isolate;
+	border-color: solid 1px;
+	color: #F6AA4E;
+	background: #ededed;
 }

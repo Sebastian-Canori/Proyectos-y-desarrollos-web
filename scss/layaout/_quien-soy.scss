@@ -28,12 +28,22 @@
   flex-wrap: wrap!important;
   flex-basis: 50%;
   align-items: center;
-  padding: 50px;
-  background-color: #b9b9b9;
+  padding: 100px;
+  padding-left: 200px;
     h3{font-size: $tam-fuente-h3;
       font-family: "Cabo", sans-serif;
       font-weight: 600;}
-    
+      background: #ffffff;
+      background: linear-gradient(1deg,#ffffff 0%, #f6aa4e 100%);
+      background: -webkit-linear-gradient(1deg,#ffffff 0%, #f6aa4e 50%);
+      background: -moz-linear-gradient(1deg,#ffffff 0%, #f6aa4e 50%);
+      h3{
+        color: #ffffff;
+      }
+      p{
+        text-decoration: none;
+      }
 }
+
 
 }
