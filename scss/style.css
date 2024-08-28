@@ -1239,10 +1239,12 @@ footer .socialContainer:hover .socialSvg {
 
 .bot-trabajos {
   background-color: #007bff;
-  padding: 1px 1.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 0.25rem;
   font-size: 1rem;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .nav {

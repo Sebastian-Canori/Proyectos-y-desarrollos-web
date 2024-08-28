@@ -36,6 +36,8 @@ text-align: left;
   border-radius: $border-radius-bot;
   font-size: $font-size-bot;
   color:$color-bot;
+  display: flex;
+  align-items: center;	
 }
 
 .nav {
