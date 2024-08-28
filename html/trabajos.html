@@ -82,38 +82,28 @@
         la navegue o bien sea buscada desde cualquier navegador.
       </p>
     </section>
+    <nav>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">TIENDAS</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">INSTITUCIONALES</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">LANDING PAGE</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>OTROS</button>
+        </li>
+      </ul>
 
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#tab-tiendas" type="button"
-          role="tab" aria-controls="tab-tiendas" aria-selected="true">
-          TIENDAS
-        </button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab-pane" data-bs-toggle="tab" data-bs-target="#tab-intitucionales"
-          type="button" role="tab" aria-controls="tab-intitucionales" aria-selected="false">
-          INSTITUCIONALES
-        </button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button"
-          role="tab" aria-controls="contact-tab-pane" aria-selected="false">
-          LANDING PAGE
-        </button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
-          type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">
-          CATALOGOS
-        </button>
-      </li>
-    </ul>
+  </nav>
     <!-- tab content-->
-    <div class="tab-content" id="nav-tabContent">
+    <div class="tab-content" id="myTabContent">
       <!-- adentro las categorias-->
       <!-- tiendas-->
-      <div class="tab-pane fade show active" id="tab-tiendas" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
         <!-- contenido del tab-->
         <div class="container text-center">
           <div class="row">
@@ -124,13 +114,14 @@
                 <p class="desc-trabajo">
                   El sitio web de California Cars es una plataforma dedicada a la venta de vehículos, especializada en automóviles de alta gama. El diseño del sitio es moderno y profesional, con un enfoque en mostrar los vehículos de manera visualmente atractiva y proporcionar a los usuarios una experiencia de navegación fácil e intuitiva. Diseño Centrado en el Usuario (UCD): La interfaz del sitio fue diseñada teniendo en cuenta la experiencia del usuario, asegurando que la navegación sea intuitiva y que los usuarios puedan encontrar fácilmente la información que buscan.
                 </p>
-                <button class="bot-trabajos">VER TRABAJO</button>
+                <a href="https://californiacars.com.ar" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
               </div>
             </div>
           </div>
         </div>
 
         <!-- trabajo 2 de tienda -->
+
         <div class="container text-center">
           <div class="row">
             <div class="col">
@@ -145,28 +136,138 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <img src="../imagenes/BairesNeo-mockup.jpg" width="400PX" style="padding-left: 150px;"height="300px" alt="rf-traslados" />
+            <div class="descripcion-flex">
+              <h1><strong>BAIRES NEO</strong></h1>
+              <p class="desc-trabajo">
+                Desarrollo Y Diseño Web Para local de insumos informaticos, Se
+                Mantuvo La Identidad De Colores De Su Logo Actual. Se
+                Integro Seguridad SSL En El Sitio Web Y Se Alojo En
+                Servidores Acorde A Su Cantidad De Visitas. Se Realiza
+                Mantención De Sus productos.
+              </p>
+              <a href="https://bairesneo.com" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+            </div>
+          </div>
+        </div>
+      </div>  
         <!-- institucionales TRABAJOS -->
 
-      <!-- tab content-->
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab-pane"
-        tabindex="0">
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
         <!-- contenido del tab-->
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="../imagenes/abogados.jpg" width="400PX" height="300px" alt="rf-traslados" />
+                <div class="descripcion-flex">
+                  <h1><strong>Estudio de Abogados</strong></h1>
+                  <p class="desc-trabajo">
+                  Sitio web Institucional totalmente responsive, es decir que se adapta correctamente a todos los dispositivos como Movil, tablets y desktop. Fue desarrollado con el CMS de Wordpress, utilizando Elementor como herramienta principal para su estructura y diseño. Lenguajes y herramienta utilizadas: HTML5, CSS, PHP, PS, Cpanel, MySql. En el desarrollo se incluyo el mantenimiento y alojamiento de dicho sitio web.
+                  </p>
+                  <a href="https://estudiomartinezgualco.com/" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <img src="../imagenes/tresamores.jpg" width="400PX" height="300px" alt="rf-traslados" />
+                  <div class="descripcion-flex">
+                    <h1><strong>Complejo turistico</strong></h1>
+                    <p class="desc-trabajo">
+                    Sitio web Institucional totalmente responsive, es decir que se adapta correctamente a todos los dispositivos como Movil, tablets y desktop. Fue desarrollado con el CMS de Wordpress, utilizando Elementor como herramienta principal para su estructura y diseño. Lenguajes y herramienta utilizadas: HTML5, CSS, PHP, PS, Cpanel, MySql. En el desarrollo se incluyo el mantenimiento y alojamiento de dicho sitio web.
+                    </p>
+                    <a href="https://tresamores.com.ar/" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <img src="../imagenes/fundacioncreerescrear.jpg" width="400PX" height="300px" alt="rf-traslados" />
+                  <div class="descripcion-flex">
+                    <h1><strong>Creer es crear</strong></h1>
+                    <p class="desc-trabajo">
+                    Sitio web Institucional totalmente responsive, es decir que se adapta correctamente a todos los dispositivos como Movil, tablets y desktop. Fue desarrollado con el CMS de Wordpress, utilizando Elementor como herramienta principal para su estructura y diseño. Lenguajes y herramienta utilizadas: HTML5, CSS, PHP, PS, Cpanel, MySql. En el desarrollo se incluyo el mantenimiento y alojamiento de dicho sitio web.
+                    </p>
+                    <a href="https://fundacioncreerescrear.com.ar" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img src="../imagenes/logistica.jpg" width="400PX" height="300px" alt="rf-traslados" />
+                    <div class="descripcion-flex">
+                      <h1><strong>Logistica</strong></h1>
+                      <p class="desc-trabajo">
+                      Sitio web Institucional totalmente responsive, es decir que se adapta correctamente a todos los dispositivos como Movil, tablets y desktop. Fue desarrollado con el CMS de Wordpress, utilizando Elementor como herramienta principal para su estructura y diseño. Lenguajes y herramienta utilizadas: HTML5, CSS, PHP, PS, Cpanel, MySql. En el desarrollo se incluyo el mantenimiento y alojamiento de dicho sitio web.
+                      </p>
+                      <a href="https://logisticagys.com.ar/" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <img src="../imagenes/Cier.jpg" width="400PX" height="300px" alt="rf-traslados" />
+                  <div class="descripcion-flex">
+                    <h1><strong>Cier</strong></h1>
+                    <p class="desc-trabajo">
+                    Sitio web Institucional totalmente responsive, es decir que se adapta correctamente a todos los dispositivos como Movil, tablets y desktop. Fue desarrollado con el CMS de Wordpress, utilizando Elementor como herramienta principal para su estructura y diseño. Lenguajes y herramienta utilizadas: HTML5, CSS, PHP, PS, Cpanel, MySql. En el desarrollo se incluyo el mantenimiento y alojamiento de dicho sitio web.
+                    </p>
+                    <a href="https://cier.ar" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      <!-- CONTENEDOR DE LANDING PAGE-->
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <img src="../imagenes/rf-traslados.jpg" width="auto" height="300px" alt="rf-traslados" />
+              <img src="../imagenes/rftraslados.jpg" width="400px" height="300px" alt="rf-traslados" />
               <div class="descripcion-flex">
-                <h1><strong>RF TRASLADOS</strong></h1>
+                <h1><strong>RF Traslados</strong></h1>
                 <p class="desc-trabajo">
-                  Desarrollo Y Diseño Web Para Agencia Del Automotor, Se
-                  Mantuvo La Identidad De Colores De Su Logo Actual. Se
-                  Integro Seguridad SSL En El Sitio Web Y Se Alojo En
-                  Servidores Acorde A Su Cantidad De Visitas. Se Realiza
-                  Mantención De Sus Unidades Todos Los Meses Con Sus Debidas
-                  Actualizaciones Que Corresponden Al Desarrollo.
+                  Diseño Centrado en el Usuario: El sitio está diseñado para ser accesible y fácil de navegar, con un enfoque en la experiencia del usuario. El sitio es completamente responsive, lo que significa que se adapta a diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles. Desarrollado en Wordpress, html y css.
                 </p>
-                <button class="bot-trabajos">VER TRABAJO</button>
+                <a href="https://rftraslados.com.ar" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="../imagenes/melucosta.jpg" width="400px" height="300px" alt="rf-traslados" />
+                <div class="descripcion-flex">
+                  <h1><strong>Melu Costa</strong></h1>
+                  <p class="desc-trabajo">
+                    Diseño Centrado en el Usuario: El sitio está diseñado para ser accesible y fácil de navegar, con un enfoque en la experiencia del usuario. El sitio es completamente responsive, lo que significa que se adapta a diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles. Desarrollado en Wordpress, html y css.
+                  </p>
+                  <a href="https://melucosta.com.ar" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <img src="../imagenes/prisma.jpg" width="400px" height="300px" alt="rf-traslados" />
+              <div class="descripcion-flex">
+                <h1><strong>Prisma</strong></h1>
+                <p class="desc-trabajo">
+                  Diseño Centrado en el Usuario: El sitio está diseñado para ser accesible y fácil de navegar, con un enfoque en la experiencia del usuario. El sitio es completamente responsive, lo que significa que se adapta a diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles. Desarrollado en Wordpress, html y css.
+                </p>
+                <a href="https://rftraslados.com.ar" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
               </div>
             </div>
           </div>
@@ -174,27 +275,23 @@
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <img src="../imagenes/BairesNeo-mockup.jpg" width="300PX" height="300px" alt="rf-traslados" />
+              <img src="../imagenes/nelida.jpg" width="400px" height="300px" alt="rf-traslados" />
               <div class="descripcion-flex">
-                <h1><strong>BAIRES NEO</strong></h1>
+                <h1><strong>Reiki</strong></h1>
                 <p class="desc-trabajo">
-                  Desarrollo Y Diseño Web Para Agencia Del Automotor, Se
-                  Mantuvo La Identidad De Colores De Su Logo Actual. Se
-                  Integro Seguridad SSL En El Sitio Web Y Se Alojo En
-                  Servidores Acorde A Su Cantidad De Visitas. Se Realiza
-                  Mantención De Sus Unidades Todos Los Meses Con Sus Debidas
-                  Actualizaciones Que Corresponden Al Desarrollo.
+                  Diseño Centrado en el Usuario: El sitio está diseñado para ser accesible y fácil de navegar, con un enfoque en la experiencia del usuario. El sitio es completamente responsive, lo que significa que se adapta a diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles. Desarrollado en Wordpress, html y css.
                 </p>
-                <button class="bot-trabajos">VER TRABAJO</button>
+                <a href="https://nelidareikimaster.com" target="_blank"><button class="bot-trabajos">VER TRABAJO</button></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- landing-->
-
+    
+  
+  
       <!-- catalogos-->
-    </div>
+  
   </main>
   <!--FIN de Contenedor de FORMA DE TRABAJO-->
 
