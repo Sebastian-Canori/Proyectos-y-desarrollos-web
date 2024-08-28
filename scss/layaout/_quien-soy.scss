@@ -29,20 +29,28 @@
   flex-basis: 50%;
   align-items: center;
   padding: 100px;
-  padding-left: 200px;
     h3{font-size: $tam-fuente-h3;
       font-family: "Cabo", sans-serif;
       font-weight: 600;}
-      background: #ffffff;
+      background: #616161;
       background: linear-gradient(1deg,#ffffff 0%, #f6aa4e 100%);
       background: -webkit-linear-gradient(1deg,#ffffff 0%, #f6aa4e 50%);
       background: -moz-linear-gradient(1deg,#ffffff 0%, #f6aa4e 50%);
       h3{
-        color: #ffffff;
+        color: #000000;
       }
-      p{
-        text-decoration: none;
+      dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        border: #ffffff;
+        margin-top: 35px!important;
+        
       }
+
+
 }
 
 

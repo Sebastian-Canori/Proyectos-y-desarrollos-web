@@ -795,12 +795,21 @@ footer .socialContainer:hover .socialSvg {
   .flexcolumn {
     display: flex !important;
     flex-wrap: wrap;
-    flex-basis: 100%;
+    min-width: 100%;
   }
   .flexcolumn h3 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: "Cabo", sans-serif;
     font-weight: 600;
+  }
+  .flexcolumn .trayectoria {
+    flex-wrap: wrap !important;
+    flex-basis: 100%;
+    align-items: center;
+    padding: 40px !important;
+    background: #616161;
+    background: linear-gradient(1deg, #ffffff 0%, #f6aa4e 100%);
+    background: -moz-linear-gradient(1deg, #ffffff 0%, #f6aa4e 50%);
   }
   .columnleft {
     display: flex;
@@ -1079,8 +1088,7 @@ footer .socialContainer:hover .socialSvg {
   flex-basis: 50%;
   align-items: center;
   padding: 100px;
-  padding-left: 200px;
-  background: #ffffff;
+  background: #616161;
   background: linear-gradient(1deg, #ffffff 0%, #f6aa4e 100%);
   background: -moz-linear-gradient(1deg, #ffffff 0%, #f6aa4e 50%);
 }
@@ -1090,10 +1098,16 @@ footer .socialContainer:hover .socialSvg {
   font-weight: 600;
 }
 .flexcolumn .trayectoria h3 {
-  color: #ffffff;
+  color: #000000;
 }
-.flexcolumn .trayectoria p {
-  text-decoration: none;
+.flexcolumn .trayectoria dl, .flexcolumn .trayectoria ol, .flexcolumn .trayectoria ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: #ffffff;
+  margin-top: 35px !important;
 }
 
 .container-padre {
