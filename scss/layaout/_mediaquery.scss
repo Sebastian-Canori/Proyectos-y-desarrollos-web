@@ -347,6 +347,13 @@
 
 @media (max-width: 500px) {
 
+  .container .row .col {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
   .flexcolumn{
     display: flex!important;
     flex-wrap: wrap;
@@ -364,7 +371,9 @@
       background: #616161;
       background: linear-gradient(1deg, #ffffff 0%, #f6aa4e 100%);
       background: -moz-linear-gradient(1deg, #ffffff 0%, #f6aa4e 50%);
+      
     }
+
 
   }
     .columnleft{
@@ -580,6 +589,7 @@
     align-content: left;
     text-align: left;
     padding-left: 0px !important;
+    padding-bottom: 10px;
   }
 
 }
