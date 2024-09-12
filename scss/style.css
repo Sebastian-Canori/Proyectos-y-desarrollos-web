@@ -1240,12 +1240,6 @@ footer .socialContainer:hover .socialSvg {
   color: #f1f1f1;
 }
 
-.container text-center, .row .col {
-  display: flex;
-  margin: 0px;
-  justify-content: center;
-}
-
 .descripcion-flex {
   flex-wrap: wrap;
   display: flex;
@@ -1343,6 +1337,18 @@ footer .socialContainer:hover .socialSvg {
   margin-bottom: 3px;
   padding: 3px;
   width: 100%;
+}
+.contacto-right .form .boton-enviar {
+  width: auto; /* El ancho se ajusta al contenido del botón */
+  padding: 5px 10px; /* Ajusta el espacio alrededor del texto */
+  display: inline-block; /* Asegura que el botón solo ocupe el ancho necesario */
+}
+.contacto-right .form .descrp-contact {
+  font-size: 1.2rem;
+}
+.contacto-right .form .descrp-contact p {
+  padding: 0px;
+  margin: 0px;
 }
 
 .col img-contact {

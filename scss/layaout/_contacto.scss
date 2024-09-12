@@ -52,6 +52,16 @@
       padding: 3px;
       width: 100%;
   }
+  .boton-enviar {
+    width: auto; /* El ancho se ajusta al contenido del botón */
+    padding: 5px 10px; /* Ajusta el espacio alrededor del texto */
+    display: inline-block; /* Asegura que el botón solo ocupe el ancho necesario */
+  }
+  .descrp-contact{
+    font-size: 1.2rem;
+    p{padding: 0px;
+    margin: 0px;}
+  }
   }
 
 }
@@ -63,3 +73,4 @@ img, svg {
   vertical-align: middle;
   border-radius: 25px;
 }
+
