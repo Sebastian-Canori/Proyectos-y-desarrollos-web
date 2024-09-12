@@ -802,11 +802,11 @@ footer .socialContainer:hover .socialSvg {
     font-family: "Cabo", sans-serif;
     font-weight: 600;
   }
-  .flexcolumn .trayectoria {
+  .flexcolumn .flexcolumn .trayectoria {
     flex-wrap: wrap !important;
     flex-basis: 100%;
     align-items: center;
-    padding: 40px !important;
+    padding: 100px;
     background: #616161;
     background: linear-gradient(1deg, #ffffff 0%, #f6aa4e 100%);
     background: -moz-linear-gradient(1deg, #ffffff 0%, #f6aa4e 50%);
@@ -1087,7 +1087,7 @@ footer .socialContainer:hover .socialSvg {
   flex-wrap: wrap !important;
   flex-basis: 50%;
   align-items: center;
-  padding: 100px;
+  padding: 50px;
   background: #616161;
   background: linear-gradient(1deg, #ffffff 0%, #f6aa4e 100%);
   background: -moz-linear-gradient(1deg, #ffffff 0%, #f6aa4e 50%);
@@ -1220,6 +1220,17 @@ footer .socialContainer:hover .socialSvg {
   display: flex;
   align-items: center;
   margin: 10px;
+}
+.container text-center:hover,
+.row .col:hover {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #ff953f;
+  transition: all 1s ease;
+}
+.container text-center:hover h1,
+.row .col:hover h1 {
+  color: #f1f1f1;
 }
 
 .descripcion-flex {
